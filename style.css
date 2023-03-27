@@ -102,7 +102,7 @@ body{
     margin: 20px 10px 0 0;
     cursor: pointer;
 }
-.experience{
+.experience,.education,.activities{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -110,7 +110,7 @@ body{
     align-items: center;
     margin: auto;
 }
-.experience h2{
+.experience h2,.education h2,.activities h2{
     font-size: 40px;
     font-weight: 700;
     border-bottom: 3px dashed;
@@ -119,20 +119,43 @@ body{
     text-align: center;
     padding: 10px 0;
 }
-.jobs{
+.jobs,.schools,.certificates{
     width:100%;
 }
-.job{
+.job,.school{
     padding: 20px 50px 0px;
 }
-.job h3{
+.job h3,.certificate h3{
     font-size: 20px;
     border-bottom: 2px solid;
     margin: 0 0 10px 0;
     display: inline-block;
 }
-.job-timeline{
+.job-timeline,.school-timeline{
     display: block;
     font-size:10px;
     padding: 0 0 10px 0;
+}
+.certificate{
+    padding: 50px 50px 0px;
+}
+.certificate-content{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-bottom: 30px;
+    width: 400px;
+    justify-content: space-between;
+}
+.certificate-content span{
+    border: 2px solid;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 3px 1px #6c6c6c;
+}
+.certificate-content p{
+    font-size: 14px;
+}
+.certificate h3{
+    width: 400px;
 }
