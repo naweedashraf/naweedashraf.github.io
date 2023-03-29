@@ -186,3 +186,39 @@ body{
 .code:hover, .certificate-content span:hover,.buttons span:hover{
     box-shadow: 0 0 3px 1px #000;
 }
+.side-bar span:hover{
+    font-size:17px;
+}
+.contact-info-content{
+    display: block;
+    position: absolute;;
+    width: -webkit-fill-available;
+    top: 0;
+    margin-left: 240px;
+}
+.contact-info-content div{
+    position: relative;
+    padding: 35px;
+    background-color: #d2d2d2;;
+    max-width: 330px;
+    margin: 300px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px #000;
+}
+.contact-info-content p{
+    padding-bottom: 10px;
+}
+.close{
+    position: absolute;
+    right: 0;
+    top: 0px;
+    font-size: 18px;
+    line-height: 18px;
+    background-color: #999;
+    padding: 10px 12px;
+    border-radius: 0 9px 0px 10px;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}

@@ -2,6 +2,8 @@ const experience = document.querySelector("#experience-nav");
 const education = document.querySelector("#education-nav");
 const activities = document.querySelector("#activities-nav");
 const home = document.querySelector("#home");
+const contactBtn = document.querySelector(".contact-info");
+const contactCloseBtn = document.querySelector(".close");
 
 const experienceContent = document.querySelector("#experience");
 const educationContent = document.querySelector("#education");
@@ -27,7 +29,12 @@ activities.addEventListener("click",() => {
     document.querySelector(".active").className = "";
     activities.querySelector("span").className = "active";
 });
-
+contactBtn.addEventListener("click",() => {
+    document.querySelector(".contact-info-content").className = "contact-info-content";
+});
+contactCloseBtn.addEventListener("click",() => {
+    document.querySelector(".contact-info-content").className = "contact-info-content hidden";
+});
 
 window.addEventListener("scroll", () => {
     if (scrollY >= activtiesContent.offsetTop - 60) {
