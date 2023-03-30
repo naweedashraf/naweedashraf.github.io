@@ -269,6 +269,9 @@ body{
     .contact-info-content{
         margin:10px;
     }
+    .intro{
+        margin: 0 20px;
+    }
     .experience{
         padding-bottom: 50px;
     }
