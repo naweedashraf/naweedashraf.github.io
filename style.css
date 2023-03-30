@@ -281,7 +281,4 @@ body{
     .certificate-content{
         max-width: -webkit-fill-available;
     }
-    .activities{
-        display: none;
-    }
   }
