@@ -222,3 +222,42 @@ body{
 .hidden{
     display: none;
 }
+
+/*              */
+/*              */
+/*  responsive  */
+/*              */
+/*              */
+@media (max-width: 600px) {
+    .content {
+      display: block;
+      width: 100%;
+      height: 2000px;
+    }
+    .side-bar{
+        width: 100%;
+        margin: 0;
+        border: none;
+        position: fixed;
+        top: 0;
+    }
+    .side-bar-content{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #999;
+        height: 40px;
+    }
+    .side-bar-image, .side-bar-contact,.side-bar-name{
+        display: none;
+    }
+    .side-bar-menu{
+        margin: 0;
+        padding-top: 10px;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .main-content{
+        display: none;
+    }
+  }
