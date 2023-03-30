@@ -272,10 +272,16 @@ body{
     .intro{
         margin: 0 20px;
     }
-    .experience{
+    .experience,.education{
         padding-bottom: 50px;
     }
-    .education,.activities{
+    .certificate h3 {
+        width: -webkit-fill-available;
+    }
+    .certificate-content{
+        max-width: -webkit-fill-available;
+    }
+    .activities{
         display: none;
     }
   }
